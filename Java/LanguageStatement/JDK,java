@@ -1,0 +1,23 @@
+
+1,版本
+	JDK 1.1.4~JDK 1.1.8 ~ J2SE 1.2~1.4.2 ~ Java SE 5.0 (1.5.0)~8.0 (1.8.0)
+2,组成
+	javac 		– 编译器，将源程序转成字节码
+	jar 		– 打包工具，将相关的类文件打包成一个文件
+	javadoc 	– 文档生成器，从源码注释中提取文档
+	jdb 		– debugger，查错工具
+	java 		– 运行编译后的java程序（.class后缀的）
+	appletviewer- 小程序浏览器，一种执行HTML文件上的Java小程序的Java浏览器。
+	Javah		- 产生可以调用Java过程的C过程，或建立能被Java程序调用的C过程的头文件。
+	Javap		- Java反汇编器，显示编译类文件中的可访问功能和数据，同时显示字节代码含义。
+	Jconsole	- Java进行系统调试和监控的工具
+	jps: 查看Java虚拟机进程列表
+3,常用的包
+	java.lang	：这个是系统的基础类，比如String等都是这里面的，这个包是唯一一个可以不用引入(import)就可以使用的包。
+	java.io		：这里面是所有输入输出有关的类，比如文件操作等。
+	java.nio	：为了完善io包中的功能，提高io包中性能而写的一个新包 ，例如NIO非堵塞应用
+	java.net	: 这里面是与网络有关的类，比如URL，URLConnection等。
+	java.util	：这个是系统辅助类，特别是集合类Collection，List，Map等。
+	java.sql	：这个是数据库操作的类，Connection， Statement，ResultSet等。
+	javax.servlet：这个是JSP，Servlet等使用到的类。
+	
